@@ -1,0 +1,38 @@
+$white: #ffffff;
+$black: #010101;
+$green: #51ff0d;
+
+body {
+    background-color: #010101;
+    color: $green;
+    letter-spacing: 1px;
+}
+
+a {
+    background: $black;
+    padding: 0.5rem 0.75rem;
+    color: $white;
+
+    &:hover {
+        color: orangered;
+    }
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 20px;
+    border: 2px solid $white;
+    font-weight: bold;
+    color: $white;
+    border-radius: 0;
+    outline: none;
+    letter-spacing: 2px;
+
+    &:hover {
+        color: $green;
+        border: 2px solid $green;
+        box-shadow: 0 0 5px rgba($green, 0.45),
+            0 0 15px rgba($green, 0.45),
+            0 0 25px rgba($green, 0.45);
+    }
+}
